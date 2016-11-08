@@ -29,16 +29,15 @@ h2 {
   font-family: 'cwTeXKai', serif;
   font-size: 30px;
   font-weight: 400;
-  text-align: center;
 }
 h3 {
   font-size: 28px;
   font-weight: 300;
 }
 p {
+  font-family: 'cwTeXKai', serif;
   font-size: 15px;
   line-height: 28px;
-  text-align: center;
 }
 ul {
   padding: 0;
@@ -123,19 +122,20 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #E3E3E4;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: ''cwTeXKai', serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 10px;
-  padding-bottom: 45px;
+  text-align: center;
 }
 #slider .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'cwTeXKai', serif;
   font-weight: 300;
   letter-spacing: 3px;
+  text-align: center;
 }
 /*--
 	wrapper Start
