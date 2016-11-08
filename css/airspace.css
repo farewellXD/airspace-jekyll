@@ -29,6 +29,7 @@ h2 {
   font-family: 'cwTeXKai', serif;
   font-size: 30px;
   font-weight: 400;
+  text-align: center;
 }
 h3 {
   font-size: 28px;
@@ -37,6 +38,7 @@ h3 {
 p {
   font-size: 15px;
   line-height: 28px;
+  text-align: center;
 }
 ul {
   padding: 0;
@@ -127,7 +129,6 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 60px;
   letter-spacing: 10px;
   padding-bottom: 45px;
-  text-align:center;
 }
 #slider .block p {
   font-size: 23px;
@@ -135,7 +136,6 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
-  text-align:center;
 }
 /*--
 	wrapper Start
