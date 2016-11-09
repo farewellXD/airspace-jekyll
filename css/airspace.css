@@ -31,6 +31,8 @@ a.button {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
+    position: absolute;
+    top: 50%;
 }
 
 a.button {
