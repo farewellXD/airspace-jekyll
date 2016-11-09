@@ -4,6 +4,11 @@
  *
  */
 
+hr.style1{
+ height: 20px;
+ border-top: 1px solid #504b5a;
+}
+
  .italic {
    font-style: italic;
  }

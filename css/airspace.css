@@ -5,7 +5,7 @@
  * The original style.css is now called airspace.css
  * 
  */
-
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexkai.css);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
@@ -13,6 +13,42 @@
 /*--
 	Common Css
 --*/
+
+div.box-center {
+    text-align: center;
+}
+
+a.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 32px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+}
+
+a.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+a.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -26,6 +62,7 @@ h6 {
   font-family: 'Roboto', sans-serif;
 }
 h2 {
+  font-family: 'cwTeXKai', serif;
   font-size: 30px;
   font-weight: 400;
 }
@@ -34,6 +71,7 @@ h3 {
   font-weight: 300;
 }
 p {
+  font-family: 'cwTeXKai', serif;
   font-size: 15px;
   line-height: 28px;
 }
@@ -120,19 +158,20 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #E3E3E4;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: ''cwTeXKai', serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 10px;
-  padding-bottom: 45px;
+  text-align: center;
 }
 #slider .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'cwTeXKai', serif;
   font-weight: 300;
   letter-spacing: 3px;
+  text-align: center;
 }
 /*--
 	wrapper Start
