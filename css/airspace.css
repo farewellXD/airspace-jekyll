@@ -14,9 +14,7 @@
 /*--
 	Common Css
 --*/
-.col-md-12_test column {  
-   text-align:center;
-}
+
 .col-md-12_test column form {
    display:inline-block;
 }
