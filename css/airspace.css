@@ -14,7 +14,10 @@
 /*--
 	Common Css
 --*/
+.li {
+display: inline;
 
+}
 .col-md-12_test column form {
    display:inline-block;
 }
