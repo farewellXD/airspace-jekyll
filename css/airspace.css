@@ -15,23 +15,7 @@
 	Common Css
 --*/
 
-.container_test {
-    margin:  30px auto;
-    width: 500px;
-}
 
-.container > div {
-    width: 33%;
-}
-.col1 {
-    float: left;
-}
-.col2 {
-    float: right;
-}
-.col3 {
-    margin: auto;
-}
 
 
 section.background{
