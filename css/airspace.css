@@ -13,6 +13,35 @@
 /*--
 	Common Css
 --*/
+
+.#container_test {
+    width:50%;
+    text-align:center;
+}
+
+#left {
+    float:left;
+    width:100px;
+    height: 50px;
+    background: #ff0000;
+}
+
+#center {
+    display: inline-block;
+    margin:0 auto;
+    width:100px;
+    height: 50px;
+    background: #00ff00;
+}
+
+#right {
+    float:right;
+    width:100px;
+    height: 50px;
+    background: #0000ff;
+}
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
