@@ -15,7 +15,10 @@
 	Common Css
 --*/
 
+li{
+display: inline;
 
+}
 
 
 section.background{
