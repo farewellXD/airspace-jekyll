@@ -80,10 +80,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Noto Sans TC','Roboto', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 h2 {
-  font-family: 'Noto Sans TC','cwTeXKai', serif;
+  font-family: 'Noto Sans TC', sans-serif;
   font-size: 30px;
   font-weight: 400;
 }
@@ -92,7 +92,7 @@ h3 {
   font-weight: 300;
 }
 p {
-  font-family:'Noto Sans TC','cwTeXKai', serif;
+  font-family:'Noto Sans TC',sans-serif;
   font-size: 15px;
   line-height: 28px;
 }
