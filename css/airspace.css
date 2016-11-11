@@ -16,10 +16,21 @@
 --*/
 
 .container {
- display:table;
+    margin:  30px auto;
+    width: 500px;
 }
-.col1, .col2, .col3 {
- display:table-cell;
+
+.container > div {
+    width: 33%;
+}
+.col1 {
+    float: left;
+}
+.col2 {
+    float: right;
+}
+.col3 {
+    margin: auto;
 }
 
 
