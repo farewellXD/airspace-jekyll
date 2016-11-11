@@ -14,42 +14,13 @@
 /*--
 	Common Css
 --*/
-
-  .square
-    {
-        float: left;
-        margin:1pt;
-        width:72pt;
-        height:72pt;
-    }
-    .container
-    {
-        text-align:center;
-        width:450pt;
-        height: 80pt;
-    }
-    .centerwrapper
-    {
-       margin: auto;
-       width: 302pt;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.col-md-12 column {  
+   text-align:center;
+}
+.col-md-12 column form {
+   display:inline-block;
+}
+ 
 
 
 section.background{
