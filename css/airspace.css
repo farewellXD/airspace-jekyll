@@ -15,6 +15,14 @@
 	Common Css
 --*/
 
+.container {
+ display:table;
+}
+.col1, .col2, .col3 {
+ display:table-cell;
+}
+
+
 section.background{
  background-color: #f4f4f4;
 }
