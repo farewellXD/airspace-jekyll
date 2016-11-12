@@ -15,7 +15,7 @@
 	Common Css
 --*/
 
-.button {
+.button_x {
   display: inline-block;
   border-radius: 4px;
   background-color: white;
@@ -30,19 +30,19 @@
   margin: 5px;
 }
 
-.button span {
+.button_x span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.button:hover {
+.button_x:hover {
     background-color: #555555;
     color: white;
 }
 
-.button span:after {
+.button_x span:after {
   content: '»';
   position: absolute;
   opacity: 0;
@@ -52,11 +52,11 @@
  
 }
 
-.button:hover span {
+.button_x:hover span {
   padding-right: 25px;
 }
 
-.button:hover span:after {
+.button_x:hover span:after {
   opacity: 1;
   right: 0;
 
