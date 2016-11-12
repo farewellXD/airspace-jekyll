@@ -15,10 +15,9 @@
 	Common Css
 --*/
 
-.glas_centered {
+.col-md-4.col-sm-12.col-centered {
     text-align: center;
 }
-
 
 .li {
 display: inline;
