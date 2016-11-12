@@ -14,6 +14,12 @@
 /*--
 	Common Css
 --*/
+
+.glas_centered {
+    text-align: center;
+}
+
+
 .li {
 display: inline;
 
