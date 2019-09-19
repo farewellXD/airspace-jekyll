@@ -160,74 +160,49 @@ modified table v4
 */
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
-* {
-	margin: 0px; 
-	padding: 0px; 
-	box-sizing: border-box;
+/*//////////////////////////////////////////////////////////////////
+[ Scroll bar ]*/
+.js-pscroll {
+  position: relative;
+  overflow: hidden;
 }
 
-body, html {
-	height: 100%;
-	font-family: sans-serif;
+.table100 .ps__rail-y {
+  width: 9px;
+  background-color: transparent;
+  opacity: 1 !important;
+  right: 5px;
 }
 
-/* ------------------------------------ */
-a {
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-}
-
-a:focus {
-	outline: none !important;
-}
-
-a:hover {
-	text-decoration: none;
-}
-
-/* ------------------------------------ */
-h1,h2,h3,h4,h5,h6 {margin: 0px;}
-
-p {margin: 0px;}
-
-ul, li {
-	margin: 0px;
-	list-style-type: none;
-}
-
-
-/* ------------------------------------ */
-input {
+.table100 .ps__rail-y::before {
+  content: "";
   display: block;
-	outline: none;
-	border: none !important;
+  position: absolute;
+  background-color: #ebebeb;
+  border-radius: 5px;
+  width: 100%;
+  height: calc(100% - 30px);
+  left: 0;
+  top: 15px;
 }
 
-textarea {
+.table100 .ps__rail-y .ps__thumb-y {
+  width: 100%;
+  right: 0;
+  background-color: transparent;
+  opacity: 1 !important;
+}
+
+.table100 .ps__rail-y .ps__thumb-y::before {
+  content: "";
   display: block;
-  outline: none;
-}
-
-textarea:focus, input:focus {
-  border-color: transparent !important;
-}
-
-/* ------------------------------------ */
-button {
-	outline: none !important;
-	border: none;
-	background: transparent;
-}
-
-button:hover {
-	cursor: pointer;
-}
-
-iframe {
-	border: none !important;
+  position: absolute;
+  background-color: #cccccc;
+  border-radius: 5px;
+  width: 100%;
+  height: calc(100% - 30px);
+  left: 0;
+  top: 15px;
 }
 
 
