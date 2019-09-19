@@ -439,6 +439,10 @@ px      68    160    252    */
         line-height: 2rem;
     }
 
+    .section-title br {
+        display:none;
+    }
+
 /* End of modified by even*/
   }
 
