@@ -129,13 +129,34 @@ permalink: /blog/
 </div>
 </div>
 
+<section id="service">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>議時間：2019年10月7日（星期一），上午9:00報到</h2>
+          <p>著重於<b>商業部門</b>、<b>政府部門</b>及<b>臺灣生物多樣性主流化夥伴關係</b>，進行深入討論與交流。</p>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-sm-6 col-md-4">
+        <div class="service-item">
+          <i class="icon ion-coffee"></i>
+          <h4>經濟與商業的生物多樣性保育</h4>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="service-item">
+          <i class="ion-compass"></i>
+          <h4>生物多樣性的政策推行與規劃</h4>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="service-item">
+          <i class="ion-person"></i>
+          <h4>生物多樣性主流化夥伴關係</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-{% for post in site.posts %}
-<div class="post-area">
-  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-  <p class="post-date">{{ post.date | date_to_long_string }}</p>
-  <p>
-    {{ post.content | strip_html | truncatewords: 50 }}
-  </p>
-</div>
-{% endfor %}
