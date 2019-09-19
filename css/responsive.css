@@ -402,8 +402,9 @@ px      68    160    252    */
 
 /* modified by even*/
     #slider {
-        padding: 80px 0;
-    }	
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
     #slider .block h1 {
       font-size: 18px;
       letter-spacing: 5px !important;
