@@ -429,8 +429,6 @@ px      68    160    252    */
     #intro .block img {
         padding-left: 0;
         padding-top: 40px
-	width: 100%;
-    	transform: translate(1%,1%);
     }
     .section-title h2 {
         font-size: 23px;
