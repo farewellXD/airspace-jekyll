@@ -15,7 +15,7 @@ px      68    160    252    344    436    528    620    712    */
 
 /* mod by even */
 .section-title p {
-    font-weight: normal !important;
+    font-style: normal !important;
 }
 /* end of mod by even*/
 
@@ -434,7 +434,7 @@ px      68    160    252    */
         font-size: 23px;
     }
     .section-title p {
-        font-weight: normal;
+        font-style: normal;
         padding-bottom: 30px;
         line-height: 2rem;
     }
