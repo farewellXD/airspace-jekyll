@@ -469,6 +469,9 @@ px      68    160    252    */
 		list-style: none;
 	}
 	
+	.column3 li {
+		list-style: none;
+	}
 /* End of modified by even*/
   }
 
