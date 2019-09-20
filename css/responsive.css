@@ -417,7 +417,7 @@ px      68    160    252    */
         padding-bottom: 0;
     }
     #intro {
-        padding: 80px 0;
+        padding: 40px 0;
     }
     li {
         padding: 5px 10px;
@@ -430,6 +430,11 @@ px      68    160    252    */
         padding-left: 0;
         padding-top: 40px
     }
+	
+	.section-title {
+		margin-bottom: 0px;
+	}
+		
     .section-title h2 {
         font-size: 23px;
     }
@@ -442,7 +447,28 @@ px      68    160    252    */
     .section-title br {
         display:none;
     }
-
+	
+	#testimonial .testimonial-carousel p {
+		line-height: 20px;
+		font-size: 14px;
+	}
+	
+	footer .footer-manu {
+		display: none;
+	  }
+	
+	/*modify /blog */
+	.table100.ver5 td {
+		font-size: 12px;
+	}
+	.column1 {
+		padding-left: 10px;
+	}
+	
+	.column2 li {
+		list-style: none;
+	}
+	
 /* End of modified by even*/
   }
 
