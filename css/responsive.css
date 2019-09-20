@@ -483,7 +483,7 @@ px      68    160    252    */
 		height: 450px;
 	}
 	
-	.my_footer {
+	.panel-body .my_footer {
 		font-size: 10px;
 		bottom: 10px;
 	}
