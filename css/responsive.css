@@ -395,6 +395,10 @@ px      68    160    252    */
   footer .footer-manu {
     display: none;
   }
+	
+.panel-body h2 {
+	font-size: 30px;
+}
 
 }
 
