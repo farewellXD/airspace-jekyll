@@ -472,6 +472,18 @@ px      68    160    252    */
 	.column3 li {
 		list-style: none;
 	}
+	
+	
+	/* modify card*/
+	.panel-body {
+		height: 450px;
+	}
+	
+	.my_footer {
+		font-size: 10px;
+		bottom: 10px;
+	}
+	
 /* End of modified by even*/
   }
 
