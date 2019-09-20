@@ -3,9 +3,7 @@
  * To find the original style.css that ships with Airspace, read airspace.css
  *
  */
-.myclass {
-   font-size: 18px;
-}
+
  .italic {
    font-style: italic;
  }
@@ -318,18 +316,20 @@ th, td {
  padding: 0;
 }
 
-.panel-body{
- h2 {
+.panel-body {
+ height: 500px;
+}
+
+.panel-body  h2 {
   padding: 20px;
  }
 
- li {
+ .panel-body  li {
   padding: 20px;
  }
 
- .my_footer {
+ .panel-body  .my_footer {
   font-size:12px;
  }
-}
 
 
