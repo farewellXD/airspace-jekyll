@@ -324,12 +324,16 @@ th, td {
   padding: 20px;
  }
 
- .panel-body  li {
+ .panel-body  ul {
+  list-style: circle;
   padding: 20px;
  }
+
 
  .panel-body  .my_footer {
   font-size:12px;
  }
+
+
 
 
