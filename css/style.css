@@ -3,7 +3,9 @@
  * To find the original style.css that ships with Airspace, read airspace.css
  *
  */
-
+.myclass {
+   font-size: 18px;
+}
  .italic {
    font-style: italic;
  }
