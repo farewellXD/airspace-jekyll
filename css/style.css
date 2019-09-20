@@ -206,7 +206,7 @@ th, td {
 [ Fix header ]*/
 .table100 {
   position: relative;
-  padding-top: 60px;
+  padding-top: 10px;
 }
 
 .table100-head {
